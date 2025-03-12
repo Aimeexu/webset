@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>鸿蒙版本天府安逸下载</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #666666;
+        margin-bottom: 30px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+    <script>
+      function openDeepLink() {
+        let url = 'store://enterprise/manifest?url=http://e.etest.tf.cn:8146/tfayyyzx/download/manifest.json5';
+        window.open(url, '_parent');
+      }
+    </script>
+  </head>
+  <body>
+    <h1>鸿蒙版本天府安逸下载</h1>
+    <p>点击下方按钮即可开始下载鸿蒙版本的天府安逸应用。</p>
+    <button onclick="openDeepLink()">立即下载</button>
+  </body>
+</html>
